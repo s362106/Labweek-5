@@ -1,0 +1,57 @@
+body {
+    padding: 5% 10% 5%;
+}
+h1, h2 {
+    letter-spacing: 0.2em;
+    }
+h1 {
+    text-transform: Uppercase;
+    text-shadow: 5px 5px 5px #363636;
+    color:#222222;
+    font-family: deathstar;
+}
+h2 {
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: deathstar;
+}
+.plant-box {
+padding: 10px 10% 10px;
+margin:20px 0 25px;
+box-shadow: 3px 4px 20px #363636;
+background-color: #FFFFFF;
+}
+.plant-box > p{
+    line-height: 1.5em;
+}
+p > span{
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    word-spacing: 0.8em;
+}
+
+img {
+    width: 40%;
+}
+ head {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@font-face {
+    font-family: deathstar;
+    src: url(../assets/deathstar-webfont.woff);
+}
+
+#box1 > img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+img {
+    flex-grow: 1;
+}
+#box1 > span{
+    flex-grow: 1;
+    vertical-align: super;
+
+}
